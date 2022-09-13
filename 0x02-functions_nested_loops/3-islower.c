@@ -7,13 +7,18 @@
  */
 int _islower(int c)
 {
-	if (_islower(c))
+	int r = 'a';
+
+	for (r = 'a'; r <= 'z'; r++)
 	{
-		return (1);
-	}
-	else
-	{
-		return (0);
+		if (c == r)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 	_putchar('\n');
 }
