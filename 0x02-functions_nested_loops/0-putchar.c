@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+	char character [] = "_putchar";
+	int x = 0;
+	while (x < 8)
+	{
+		putchar(character[x]);
+		x++;
+	}
 	putchar('\n')
 	return (0);
 }
