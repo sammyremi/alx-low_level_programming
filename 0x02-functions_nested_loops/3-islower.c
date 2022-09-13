@@ -3,6 +3,8 @@
 /**
  * _islower - Entry point
  *
+ *@c:character to be checked with the function _islower
+ *
  * Return: Always 0 (Success)
  */
 int _islower(int c)
