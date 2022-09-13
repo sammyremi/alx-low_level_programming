@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	char character [] = "_putchar";
+	char character[] = "_putchar";
 	int x = 0;
+
 	while (x < 8)
 	{
 		_putchar(character[x]);
