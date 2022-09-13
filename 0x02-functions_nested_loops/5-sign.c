@@ -3,7 +3,7 @@
 /**
  * print_sign - Entry point
  *
- *@c:char
+ *@n:number to be checked
  *
  * Return: Always 0 (Success)
  */
