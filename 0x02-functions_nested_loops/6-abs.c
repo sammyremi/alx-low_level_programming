@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Entry point
+ * _abs - Entry point
  *
  *@r:number to be checked
  *
