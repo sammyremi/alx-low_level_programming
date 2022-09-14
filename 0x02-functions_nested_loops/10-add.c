@@ -3,7 +3,7 @@
 /**
  * add - Entry point
  *
- *@r:number to be checked
+ *@x, y:number to be checked
  *
  * Return: Always 0 (Success)
  */
