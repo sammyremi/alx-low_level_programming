@@ -3,7 +3,9 @@
 /**
  * jack_bauer - Entry point
  *
- *@r:number to be checked
+ * @x:number to be checked
+ *
+ * @y: number to check
  *
  * Return: Always 0 (Success)
  */
