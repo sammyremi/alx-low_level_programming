@@ -5,8 +5,6 @@
  *
  * @x:number to be checked
  *
- * @y: number to check
- *
  * Return: Always 0 (Success)
  */
 void jack_bauer(void)
