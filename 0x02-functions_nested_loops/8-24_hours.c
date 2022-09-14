@@ -3,8 +3,6 @@
 /**
  * jack_bauer - Entry point
  *
- * @x:number to be checked
- *
  * Return: Always 0 (Success)
  */
 void jack_bauer(void)
