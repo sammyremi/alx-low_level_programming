@@ -10,13 +10,17 @@
 int _isupper(int c)
 {
 	char c;
+	int count = 0
 
-	if (_isupper(c))
+	while (c <= 'Z')
 	{
-		return (1);
-	}
-	else
-	{
-		return (0);
+		if (_isupper(c))
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 }
