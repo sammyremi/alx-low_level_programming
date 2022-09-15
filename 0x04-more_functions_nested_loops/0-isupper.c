@@ -9,18 +9,12 @@
  */
 int _isupper(int c)
 {
-	char c;
-	int count = 0
+	int y = 'A';
 
-	while (c <= 'Z')
+	while (y <= 'Z')
 	{
-		if (_isupper(c))
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		if (y == c)
+		return (1);
 	}
+	return (0);
 }
