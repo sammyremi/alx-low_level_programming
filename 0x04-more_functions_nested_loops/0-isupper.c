@@ -14,6 +14,7 @@ int _isupper(int c)
 	while (y <= 'Z')
 	{
 		if (y == c)
+		y++;
 		return (1);
 	}
 	return (0);
