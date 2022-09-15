@@ -3,8 +3,6 @@
 /**
  * print_numbers - Entry point
  *
- * return:number to be checked
- *
  * Return: Always 0 (Success)
  */
 void print_numbers(void)
