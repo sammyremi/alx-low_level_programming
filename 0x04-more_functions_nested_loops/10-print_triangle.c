@@ -5,7 +5,7 @@
  * @size: number to print
  * Return: Always 0
  */
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	int x;
 	int y;
