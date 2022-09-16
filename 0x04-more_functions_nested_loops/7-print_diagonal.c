@@ -23,6 +23,7 @@ void print_diagonal(int n)
 			{
 				if (y == x)
 					_putchar('\\');
+
 				else
 					_putchar(' ');
 			}
