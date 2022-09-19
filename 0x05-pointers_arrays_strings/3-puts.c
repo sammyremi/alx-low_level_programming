@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _puts - printing a string with newline
  * @str: var pointer, print to stdout
@@ -6,11 +7,13 @@
  */
 void _puts(char *str)
 {
-	int x;
-	
-	for (x = 0; str[x] != '\0'; x++)
+	char *x;
+
+	x = str;
+	while (x != '\0')
 	{
-		_putchar(str);
+		printf("%c", x);
 	}
-	_putchar("\n");
+
+	putchar('\n');
 }
