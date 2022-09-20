@@ -8,12 +8,12 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i, x;
+	int i, lent;
 
-	x = strlen(src);
-	for (i = 0; i <= x; i++)
+	lent = strlen(src);
+	for (i = 0; i <= lent; i++)
 	{
-		*(x + i) = *(src + i);
+		*(dest + i) = *(src + i);
 	}
-	return (x);
+	return (dest);
 }
