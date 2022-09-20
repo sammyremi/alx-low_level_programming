@@ -6,7 +6,7 @@
  * @dest: copy from src
  * Return: Always 0
  */
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
 {
 	int i, x;
 
