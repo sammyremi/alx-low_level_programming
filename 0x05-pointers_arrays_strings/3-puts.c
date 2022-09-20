@@ -11,7 +11,7 @@ void _puts(char *str)
 
 	for (x = 0; str[x] != '\0'; x++)
 	{
-		printf("%c", str[x])
+		printf("%c", str[x]);
 	}
 	printf("\n");
 
