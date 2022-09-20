@@ -7,13 +7,12 @@
  */
 void _puts(char *str)
 {
-	char *x;
+	int x;
 
-	x = str;
-	while (x != '\0')
+	for (x = 0; str[x] != '\0'; x++)
 	{
-		printf("%c", x);
+		printf("%c", str[x])
 	}
+	printf("\n");
 
-	putchar('\n');
 }
