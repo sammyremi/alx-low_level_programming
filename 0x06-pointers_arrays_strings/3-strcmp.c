@@ -20,14 +20,16 @@ int _strcmp(char *s1, char *s2)
 	{
 		y++;
 	}
-	if (x > y)
+	if (x < y)
+	{
+		large = y;
+	}
+	else if (x > y)
 	{
 		large = x;
 	}
 	else
-	{
-		large = y;
-	}
+		large = x;
 
 	for (count = 0; count < large; count++)
 	{
