@@ -33,14 +33,10 @@ int _strcmp(char *s1, char *s2)
 
 	for (count = 0; count < large; count++)
 	{
-		if (s1[count] != s2[count])
-		{
-			return (s1[count] - s2[count]);
-		}
+		if (s1[count] == s2[count])
+		{}
 		else
-		{
-			return (0);
-		}
+			return (s1[count] - s2[count]);
 	}
 	return (0);
 }
