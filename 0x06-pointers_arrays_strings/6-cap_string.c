@@ -24,8 +24,6 @@ char *cap_string(char *str)
 						*(str + h) -= 'a' - 'A';
 				}
 			}
-
-		
 		}
 		h++;
 	}
