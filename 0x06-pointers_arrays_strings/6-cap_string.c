@@ -4,7 +4,7 @@
  * @s: string to check
  * Return: Always 0
  */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
 	int h;
 	int b;
