@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * cap_string - capitalize each letter of each word
- * @s: string to check
+ * @str: string to check
  * Return: Always 0
  */
 char *cap_string(char *str)
