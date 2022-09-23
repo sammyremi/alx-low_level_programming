@@ -11,7 +11,7 @@ char *leet(char *s)
 	char x[] = "aAeEoOtTLl";
 	char y[] = "4433007711";
 
-	for (a = 0; *(s + b); a++)
+	for (a = 0; *(s + a); a++)
 	{
 		for (b = 0; b <= 9; b++)
 		{
