@@ -12,7 +12,7 @@ char *cap_string(char *str)
 
 	while (*(str + h))
 	{
-		if (*(str + h) >= 'a' && *(str + h) <= 'Z')
+		if (*(str + h) >= 'a' && *(str + h) <= 'z')
 		{
 			if (h == 0)
 				*(str + h) -= 'a' - 'A';
