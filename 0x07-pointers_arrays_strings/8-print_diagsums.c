@@ -16,16 +16,16 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		 prim_d += a[i];
-		 a += size;
+		prim_d += a[i];
+		a += size;
 	}
 
 	a -= size;
 
 	for (i = 0; i < size; i++)
 	{
-		  sec_d += a[i];
-		  a -= size;
+		sec_d += a[i];
+		a -= size;
 	}
 	printf("%d, %d\n", prim_d, sec_d);
 
