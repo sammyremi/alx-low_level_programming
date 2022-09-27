@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strchr - occurance of the character
  * @c: character to check
@@ -7,13 +8,14 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *ptr;
-
-	if (s == NULL)
-		return (NULL);
-	for (ptr = s; *ptr; ptr++)
+	while (s[0] != c && s[00] != '\0')
+		s++;
+	if (s[0] == '\0')
 	{
-		if (*ptr == c)
-			return (ptr);
+		return (NULL);
+	}
+	else
+	{
+		return ((char *)s);
 	}
 }
