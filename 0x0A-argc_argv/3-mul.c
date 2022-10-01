@@ -10,8 +10,10 @@
 int main(int argc, char *argv[])
 {
 	int i = 0;
+	int j = 0;
+	int total = 0;
 
-	if (argc == 1)
+	if (argc != 3)
 	{
 		printf("Error\n");
 
@@ -21,8 +23,11 @@ int main(int argc, char *argv[])
 	{
 		if (argc > 0)
 		{
-			i = atoi(argv[1]) * atoi(argv[2]);
-			printf("%d\n", i);
+			i = atoi(argv[1]);
+			j = atoi(argv[2]);
+			total = (i * j);
+
+			printf("%d\n", total);
 		}
 	}
 	return (0);
