@@ -1,13 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * create_array - array that init char to array
  * @size: size of malloc
  * @c: char to allocate to memory
+ * Return: returning  ptr
  */
 char *create_array(unsigned int size, char c)
 {
-	unsigned char *ptr[size];
+	char *ptr;
 	unsigned int x;
 
 	if (size == 0)
@@ -16,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		size = (sizeof(char) * size);
+		ptr = malloc(sizeof(char) * size);
 		for (x = 0; x < size; x++)
 		{
 			*(ptr + x) = c;
