@@ -1,7 +1,7 @@
 #include "main.h"
-#include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 /**
  * malloc_checked - allocate memory to int
  * @b: unsigned int to assign mem
@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 {
 	int *ptr;
 
-	ptr = malloc(sizeof(*ptr) * b);
+	ptr = malloc(b);
 	if (ptr == NULL)
 	{
 		exit(98);
