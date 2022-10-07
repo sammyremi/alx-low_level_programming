@@ -28,6 +28,6 @@ int *array_range(int min, int max)
 		ptr[x] = min;
 		min++;
 	}
-	
+
 	return (ptr);
 }
