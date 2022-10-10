@@ -2,12 +2,13 @@
 #include <stdio.h>
 /**
  * print_dog - print name of dog
+ * @d: structure for d
  */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
-		
+
 	if (d->name == NULL)
 		printf("(nil)");
 	else
