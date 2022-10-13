@@ -5,14 +5,15 @@
  * @array: array to be passed
  * @size: size of array
  * @cmp: function to compare
+ * Return: return -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int x, y;
-	
+
 	if (size <= 0)
 		return (-1);
-	
+
 	if (size && cmp != NULL && array != NULL)
 	{
 
