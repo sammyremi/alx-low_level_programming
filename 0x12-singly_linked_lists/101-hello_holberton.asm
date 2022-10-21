@@ -5,6 +5,7 @@ section .data
 section .text
 	global main
 
+
 main:
 	MOV rdi, 1 ; stdin fd
 	MOV rsi, msg
