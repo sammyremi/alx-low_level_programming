@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * size_t print_list - print singly list
+ * print_list - print singly list
  * @h: list to print
  * Return: number of nodes
  */
