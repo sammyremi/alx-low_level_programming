@@ -6,7 +6,7 @@
  * @idx: Index of the list
  * @n: New data (int)
  *
- * Return: the address of the new node, or NULL if it failed 
+ * Return: the address of the new node, or NULL if it failed
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -30,7 +30,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	if (head == NULL)
 		return (add_dnodeint_end(h, n));
-
 	new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
 		return (NULL);
