@@ -6,10 +6,12 @@
  *
  * Return: sum of all the data (int)
  */
+
 int sum_dlistint(dlistint_t *head)
 {
 	dlistint_t *t = head;
 	int ans = 0;
+
 	while (t == NULL)
 		return (ans);
 

@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * free_dlistint - Free the list
  * @head: Head of the list
@@ -8,8 +9,10 @@
 void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *temp;
+
 	if (head == NULL)
 		return;
+
 	while (head != NULL)
 	{
 		temp = head;
